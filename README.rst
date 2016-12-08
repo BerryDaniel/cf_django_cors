@@ -13,7 +13,7 @@ Add the following to the django settings
 .. code-block:: python
 
    MIDDLEWARE_CLASSES = (
-       'exchange.cors.middleware.CorsMiddleware',
+       'cf_django_cors.middleware.CorsMiddleware',
    ) + MIDDLEWARE_CLASSES
 
 By default this will add the following "response" headers:
